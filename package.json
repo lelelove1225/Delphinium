@@ -1,0 +1,28 @@
+{
+  "name": "delphinium",
+  "version": "0.0.2",
+  "description": "Project-Delphinum Beta",
+  "main": "index.js",
+  "scripts": {
+    "build:test": "webpack-dev-server --hot --inline --mode development",
+    "build:production": "NODE_ENV=production webpack --mode production",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "author": "lelelove1225",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@storybook/vue": "^4.1.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "vue": "^2.5.21",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
