@@ -1,5 +1,5 @@
 import Vue from "vue";
-import Hello from "./components/Hello.vue";
+import Hello from "./components/atoms/hello/Hello";
 
 new Vue({
   el: "#app",
