@@ -13,7 +13,7 @@ p {
 export default {
   data: function() {
     return {
-      name: "World"
+      name: "World!!!"
     };
   }
 };
